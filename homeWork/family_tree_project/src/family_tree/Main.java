@@ -15,6 +15,7 @@ public class Main {
         }
         FamilyService service = new FamilyService(familyTree, fileHandler);
         ConsoleView view = new ConsoleView(service);
+        FamilyMembers.addFamilyMembers(familyTree);
         view.run();
     }
 }
