@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class FamilyService {
-    private FamilyTree<Human> familyTree;
+    private static FamilyTree<Human> familyTree;
     private FileHandlerInterface fileHandler;
 
     public FamilyService(FamilyTree<Human> familyTree, FileHandlerInterface fileHandler) {
